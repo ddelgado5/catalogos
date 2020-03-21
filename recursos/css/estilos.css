@@ -1,0 +1,39 @@
+.borde {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+body{
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.sombra {
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+.marInt {
+  padding: 0 5px 0 5px;
+}
+
+.alIzq {
+  text-align: left;
+}
+
+.alCen {
+  text-align: center;
+}
+
+.alDer {
+  text-align: right;
+}
+
+.alJus {
+  text-align: justify;
+}
+
+.selFila:hover {
+  background-color: lightgrey;
+}
+p{
+  font-size: 60;
+  color: aliceblue;
+}
