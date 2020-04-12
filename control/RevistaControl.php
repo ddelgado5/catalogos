@@ -12,10 +12,12 @@ class RevistaControl {
   
   public function obtenerTodos() {
     try {
-      $sql = "select distinct descripcion from revista";
+      $sql = "select * from revista";
       $prep = $this->pdo->prepare($sql);
       $prep->execute();
-      return $prep->fetchAll(PDO::FETCH_OBJ);
+      $amor = $prep->fetchAll(PDO::FETCH_OBJ);
+      echo '$amor';
+      return $amor;
     } catch (Exception $ex) {
       die($ex->getMessage());
     }
