@@ -39,7 +39,7 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Ofertas <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#ofertas">Ofertas <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Catalogo</a>
@@ -68,11 +68,11 @@
   </p>
 </nav>
 
-<!-- pestañas -->
+<!-- pestañas 
 <nav>
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+  <div class="nav nav-tabs" id="nav-tab">
     <a class="nav-item nav-link active" id="nav-hom-tab" data-toggle="tab" href="#nav-hom" role="tab" aria-controls="nav-hom" aria-selected="true">Maquillaje</a>
-    <a class="nav-item nav-link" id="nav-maq-tab" data-toggle="tab" href="#nav-maq" role="tab" aria-controls="nav-maq" aria-selected="false">Fragancias</a>
+    <a class="nav-item nav-link" id="nav-maq-tab" data-toggle="tab" href="#nav-maq" role="tab" aria-controls="nav-maq" selected="false">Fragancias</a>
     <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Cuidado de la piel</a>
     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Alimentos</a>
     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Nutricion</a>
@@ -113,7 +113,10 @@
     <p>HII </p>
   </div>
 </div>
-
+-->
+<p><br></p>
+<center><p Style= "text-align:center"><h3>Te damos la bienvenida a esta pagina!</h3> <br> Antojate! los mejores productos para consentirte como maquillaje, perufumeria, accesorios para ti y para el hogar, entre otros hermosos productos. <br> si quieres ver el listado de productos <a href="http://localhost/catalogos/catalogos/vista/productoListar.php">Click aqui!</a></p>
+</center>
 <!-- carrucel -->
 
 <!--  -->
@@ -156,8 +159,9 @@
 <!-- este es otro carrucel -->
 
 <!-- fin de carrucel gym -->
-
-<p>Nuestras ofertas recomendadas! </p>
+<p><br></p>
+<h3 Style="text-align: center" id="ofertas">Nuestras ofertas recomendadas! </h3>
+<br>
 <div class="container">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
 
@@ -237,7 +241,7 @@
 </footer>
 <!-- Footer -->
 <div class="text-center center-block">
-            <p class="txt-railway">- Bootsnipp.com -</p>
+            <p class="txt-railway">- DianaPaola.com -</p>
             <br />
                 <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
 	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -248,5 +252,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<br>
+
+    <img src="../recursos/img/redes.png" >
 </body>
 </html>

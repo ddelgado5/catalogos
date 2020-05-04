@@ -41,7 +41,7 @@ $revistaControl = new RevistaControl();
 
 <nav class="navbar navbar-expand-lg navbar-light" >
 <div class="container-fluid bg-primary-py-2">
-  <a class="navbar-brand" href="#">Bienvenidos</a>
+  <a class="navbar-brand" href="http://localhost/catalogos/catalogos/vista/home.php">Bienvenidos</a>
  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -106,6 +106,10 @@ $revistaControl = new RevistaControl();
       <br/>
       <a href="javascript:history.back()">Regresar</a>
     </div>
-    <img src="" class="rounded-circle" alt="Cinque Terre">
+    <p><br></p>
+<p><br></p>
+<p><br></p>
+    <img src="../recursos/img/redes.png">
+     <!-- class="rounded-circle" alt="Cinque Terre"> -->
   </body>
 </html>
